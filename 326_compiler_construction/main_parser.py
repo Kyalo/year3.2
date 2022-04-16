@@ -6,7 +6,7 @@
 #	IMPORTS
 ###########################
 
-import basic_scanner
+import basic_parser
 
 while True:
 	text = input('basic scanner> ')
@@ -14,9 +14,9 @@ while True:
 
 	if 'RUN' in text:
 		fn = text.strip("(\"\")RUN")
-		result, error = basic_scanner.execute_run(fn)
+		result, error = basic_parser.execute_run(fn)
 	else:
-		result, error = basic_scanner.run('<stdin>', text)
+		result, error = basic_parser.run('<stdin>', text)
 
 	if error:
 		print(error.as_string())

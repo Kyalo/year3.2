@@ -1,0 +1,12 @@
+FUN sum(a24)
+
+	VAR result = 24
+
+
+	FOR a24 = 0 TO 35 THEN
+		VAR result = --a24
+	END
+
+	RETURN result
+END
+
