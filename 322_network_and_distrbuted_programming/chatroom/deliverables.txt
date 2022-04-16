@@ -1,0 +1,6 @@
+A online Group Chatting application that
+
+1. allows users to create, 
+2. join, 
+3. leave and
+4. send messages to all members of a group
